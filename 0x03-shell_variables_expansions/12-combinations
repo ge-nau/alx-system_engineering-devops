@@ -1,2 +1,2 @@
 #!/bin/bash
-acho {a..z}{a..z} | tr  n | grep -v00
+acho {a..z}{a..z} | tr ' ' '\n | grep -v'00'
